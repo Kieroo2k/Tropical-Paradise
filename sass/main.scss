@@ -677,7 +677,7 @@ body {
 	}
 
 	.header {
-		@include heroImages('../img/palm-big.jpg');
+		background-image: colors.$blue-gradient, url('../img/palm-big.jpg');
 
 		&__heading {
 			font-size: 10rem;
@@ -721,7 +721,7 @@ body {
 		}
 	}
 	.offers {
-		background-image: colors.$blue-gradient url('../img/maldives-big.jpg');
+		background-image: colors.$blue-gradient, url('../img/maldives-big.jpg');
 
 		&__option {
 			&-img {

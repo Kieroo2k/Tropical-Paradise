@@ -677,7 +677,7 @@ body {
 	}
 
 	.header {
-		background-image: colors.$blue-gradient, url('../img/palm-big.jpg');
+		@include heroImages('../img/palm-big.jpg');
 
 		&__heading {
 			font-size: 10rem;
